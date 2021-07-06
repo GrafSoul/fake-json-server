@@ -24,10 +24,9 @@ yarn auth
 
 // Starting to generate data.
 yarn gen
-
 ```
 
-© 2020 | Fake JSON Server
+© 2021 | Fake JSON Server
 
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/
