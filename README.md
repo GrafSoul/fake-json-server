@@ -3,7 +3,6 @@
 ### Clone, Install, Development & Start
 
 Install [NodeJS]. I also recommend installing and using [Yarn] for developing applications.
-The project is ready to run on the Heroku service
 
 Below is a list of commands
 
