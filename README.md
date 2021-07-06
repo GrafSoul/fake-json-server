@@ -1,2 +1,34 @@
-# fake-json-server
-Fake JSON Server + JWT Auth
+# Fake JSON Server + JWT Auth
+
+### Clone, Install, Development & Start
+
+Install [NodeJS]. I also recommend installing and using [Yarn] for developing applications.
+The project is ready to run on the Heroku service
+
+Below is a list of commands
+
+```
+// Clone the repository.
+git clone https://github.com/GrafSoul/fake-json-server.git
+
+// Go to the project folder.
+cd fake-json-server
+
+// Installing npm modules.
+yarn install
+
+// Starting local server for data.
+yarn start
+
+// Starting local server for authorization.
+yarn auth
+
+// Starting to generate data.
+yarn gen
+
+```
+
+© 2020 | Fake JSON Server
+
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/

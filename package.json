@@ -1,0 +1,21 @@
+{
+  "name": "fake-json-server",
+  "version": "0.0.1",
+  "description": "Fake JSON Server + JWT Auth",
+  "main": "server.js",
+  "repository": "https://github.com/GrafSoul/fake-json-server.git",
+  "author": "GrafSoul <grafsoul@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "json-server --port 8000 --watch ./data/data.json",
+    "auth": "node server.js",
+    "gen": "node ./generate/generate.js > ./data/db.json"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "faker": "^5.5.3",
+    "json-server": "^0.16.3",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
